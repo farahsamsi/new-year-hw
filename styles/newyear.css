@@ -148,3 +148,47 @@ section{
     margin-top: 68px;
     margin-right: 109px;
 }
+
+/* schedule styles */
+.schedule{
+    height: 482px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.schedule p{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 48px;
+}
+
+.schedule p .red{
+    color: rgb(255, 0, 0);
+}
+
+.schedule button{
+    border-radius: 8px;
+    border: none;
+    background: rgb(255, 0, 0);
+    cursor: pointer;
+    /* width: 167px; */
+    /* height: 56px; */
+    padding: 16px 32px 16px 32px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
