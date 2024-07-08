@@ -366,3 +366,68 @@ section{
     margin-top: 77px;
     
 }
+
+/* portfolio styles */
+.portfolio{
+    width: 1280px;
+    height: 1163px;
+    /* box-sizing: border-box;
+    border: 4px solid; */
+
+}
+
+.portfolio .portfolio-text h3{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.portfolio .portfolio-text h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;   
+    margin-top: 16px; 
+    margin-bottom: 22px;
+}
+
+.portfolio .portfolio-text p{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left; 
+    margin-bottom: 48px;   
+}
+
+.portfolio .portfolio-imgs{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+
+
+}
+
+.portfolio .portfolio-imgs .column{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    /* width: 424px;
+    height: 450px; */
+}
+
+.portfolio img{
+    width: 100%;
+    height: 450px;
+}
